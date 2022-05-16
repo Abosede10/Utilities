@@ -1,5 +1,5 @@
 const file1 = require('./utilities/file-1')
-const file2 = require('./utilities/file-2')
+const { sum, concat } = require('./utilities/file-2')
 
 // File 1
 
@@ -12,7 +12,7 @@ console.log(file1.cut3([2,3,4]))
 // File 2
 
 // add numbers in an array
-console.log(file2.sum([2,50,67,80]))
+console.log(sum([2,50,67,80]))
 
   // concatenate two arrays
-console.log(file2.concat([3,5,6],[2,4,56]))
+console.log(concat([3,5,6],[2,4,56]))
